@@ -1,0 +1,93 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+  }
+  
+  .details__header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .details__headerInfo {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .details__headerInfo > h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+  }
+  
+  .details__headerInfo > p {
+    color: gray;
+  }
+  
+  .details__body {
+    flex: 1;
+    background:#ffffff;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+  }
+  
+  .details__message {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #d3b58f;
+    margin-bottom: 30px;
+  }
+  
+  .details__timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+  }
+  
+  .details__name {
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: xx-small;
+  }
+  
+  .details__receiver {
+    margin-left: auto;
+    background-color: #dcf8c6;
+  }
+  
+  /* .details__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border: 1px solid lightgray;
+  }
+  
+  .details__footer > form {
+    flex: 1;
+    display: flex;
+  }
+  
+  .details__footer > form > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .details__footer > form > button {
+    display: none;
+  }
+  
+  .details__footer > .MuiSvgIcon-root {
+    padding: 10px;
+    color: gray;
+  } */
+  
